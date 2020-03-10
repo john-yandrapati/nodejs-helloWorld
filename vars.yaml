@@ -1,0 +1,13 @@
+---
+technology: npm
+
+branch: master
+url: 'https://github.com/john-yandrapati/nodejs-helloWorld.git'
+
+node:
+  command: npm install
+  test: npm test
+
+docker:
+  dockerRegistry: johnyandrapati1/nodejs-app
+  dockerRegistryCredential: dockerhub
